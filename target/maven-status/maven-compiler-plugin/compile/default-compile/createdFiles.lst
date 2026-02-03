@@ -1,0 +1,5 @@
+com\springsecurity\config\WebAppInitializer.class
+com\springsecurity\config\ThymeleafConfig.class
+com\springsecurity\controller\HomeController.class
+com\springsecurity\config\WebMvcConfig.class
+com\springsecurity\config\RootConfig.class
