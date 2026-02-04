@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+<div class="page">
+  
+  <div class="panel">
+    <div class="panel__visible">
+      <div class="panel__content panel__content--overlay js-panel__content ">
+        <h1 class="panel__title">  </h1>
+        <form th:action="@{/login}" method="post">
+          <label>Username: <input type="text" name="username"/></label><br/>
+           <label>Password: <input type="password" name="password"/></label><br/>
+          <button type="submit">Login</button>
+     </form>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+
+</script>
+</body>
+</html>

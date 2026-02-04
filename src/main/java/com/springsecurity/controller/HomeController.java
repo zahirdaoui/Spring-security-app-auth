@@ -13,5 +13,11 @@ public class HomeController {
 	public String homePage() {
 		return "home";
 	}
+	
+	@GetMapping("admin/users")
+	public String homePadm() {
+		return "home";
+	}
+
 
 }
